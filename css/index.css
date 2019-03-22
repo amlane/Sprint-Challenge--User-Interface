@@ -218,3 +218,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About page starts here*/
+
+.about-section {
+    border-bottom: 1px dashed;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.about-top-container,
+.about-middle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.section1, 
+.section2,
+.section3,
+.section4 {
+    border-bottom: 1px dashed;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-top: 15px;
+    border: 1px solid;
+}
