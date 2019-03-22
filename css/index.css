@@ -83,14 +83,16 @@ nav {
 header .right-nav {
     display: flex;
     justify-content: space-around;
-    width: 70%;
     position: relative;
     bottom: 2px;
+    width: 100px;
 }
 
-.nav-item {
+nav .nav-item {
     text-decoration: none;
     color: black;
+    position: relative;
+    right: 40px;
 }
 
 .header-image {
