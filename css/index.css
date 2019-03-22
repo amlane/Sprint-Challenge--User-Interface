@@ -56,6 +56,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -64,6 +70,34 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header .right-nav {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 2px;
+    width: 100px;
+}
+
+nav .nav-item {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 40px;
+}
+
+.header-image {
+    width: 100%;
+    padding-bottom: 30px;
 }
 
 .container {
@@ -112,6 +146,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.child1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.child2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.child3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.child4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.child5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.child6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.child7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.child8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.child9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.child10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +217,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page starts here*/
+
+.about-page .about-section {
+    border-bottom: 1px dashed;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.about-middle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+}
+
+.about-second-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    padding-top: 40px;
+}
+
+.section1, 
+.section2,
+.section3,
+.section4 {
+    border-bottom: 1px dashed;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    max-width: 370px;
+}
+
+.about-middle-container h2,
+.about-second-container h2 {
+    padding-top: 20px;
+}
+
+
+
+.learn-more {
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin-top: 15px;
+    border: 1px solid;
+    background: white;
+}
+
+.learn-more:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.about-bottom-container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
