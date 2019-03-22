@@ -144,6 +144,46 @@ header .right-nav {
     justify-content: center;
 }
 
+.middle-content .boxes .box.child1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.child2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.child3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.child4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.child5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.child6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.child7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.child8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.child9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.child10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
