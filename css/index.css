@@ -227,10 +227,18 @@ footer nav a {
     margin-bottom: 30px;
 }
 
-.about-top-container,
 .about-middle-container {
     display: flex;
-    justify-content: center;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.about-second-container {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
 }
 
 .section1, 
@@ -239,12 +247,32 @@ footer nav a {
 .section4 {
     border-bottom: 1px dashed;
     padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    max-width: 370px;
 }
 
-button {
-    border-radius: 10px;
+.about-middle-container h2,
+.about-second-container h2 {
+    padding-top: 20px;
+}
+
+
+
+.learn-more {
+    border-radius: 8px;
     padding: 5px 20px;
     margin-top: 15px;
     border: 1px solid;
+    background: white;
+}
+
+.learn-more:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.about-bottom-container {
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
