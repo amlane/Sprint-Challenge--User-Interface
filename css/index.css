@@ -230,15 +230,16 @@ footer nav a {
 .about-middle-container {
     display: flex;
 	flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1000px;
 }
 
 .about-second-container {
     display: flex;
 	flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1000px;
+    padding-top: 40px;
 }
 
 .section1, 
@@ -247,7 +248,7 @@ footer nav a {
 .section4 {
     border-bottom: 1px dashed;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     max-width: 370px;
 }
 
