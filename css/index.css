@@ -221,7 +221,7 @@ footer nav a {
 
 /*About page starts here*/
 
-.about-section {
+.about-page .about-section {
     border-bottom: 1px dashed;
     padding-bottom: 20px;
     margin-bottom: 30px;
@@ -231,14 +231,14 @@ footer nav a {
 
 .about-middle-container {
     display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1000px;
 }
 
 .about-second-container {
     display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1000px;
     padding-top: 40px;
