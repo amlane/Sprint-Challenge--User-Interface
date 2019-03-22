@@ -56,6 +56,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -64,6 +70,32 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header .right-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    position: relative;
+    bottom: 2px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+.header-image {
+    width: 100%;
+    padding-bottom: 30px;
 }
 
 .container {
